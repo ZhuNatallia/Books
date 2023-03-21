@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.about {
+	width: 1440px;
+	margin: 0 auto;
+}
+h2 {
+	font-size: 42px;
+	margin: 70px;
+    text-align: center;
+}
+.books{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 80px ;
+    gap: 30px;
+}
+h4{
+    font-size: 32px;
+    margin: 50px 0 30px 0;
+    color: #1b3764;
+
+}
+.number{
+    color: #FFCA42;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.text{
+    color:#969AA0;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.circle_text{
+    font-size: 24px;
+    color: #1B3764;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.author{
+    width: 1440px;
+    height: 960px;
+    margin: 0 auto;
+    background-color: #F5F8FC;
+}
