@@ -10,40 +10,93 @@
 h2 {
 	font-size: 42px;
 	margin: 70px;
-    text-align: center;
+	text-align: center;
 }
-.books{
+.books {
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 80px;
+	gap: 30px;
+}
+h4 {
+	font-size: 32px;
+	margin: 50px 0 30px 0;
+	color: #1b3764;
+}
+.number {
+	color: #ffca42;
+	font-size: 21px;
+	margin-bottom: 15px;
+}
+.text {
+	color: #969aa0;
+	font-size: 19px;
+	margin-bottom: 15px;
+}
+.circle_text {
+	font-size: 24px;
+	color: #1b3764;
+	display: flex;
+	align-items: center;
+	gap: 7px;
+}
+.author {
+	width: 1440px;
+	height: 960px;
+	margin: 0 auto;
+	background-color: #f5f8fc;
+	padding: 150px 80px;
     display: flex;
+    gap: 50px;
     justify-content: space-between;
-    padding: 100px 80px ;
-    gap: 30px;
 }
-h4{
-    font-size: 32px;
-    margin: 50px 0 30px 0;
-    color: #1b3764;
-
+.author_fhoto {
+	position: relative;
 }
-.number{
-    color: #FFCA42;
-    font-size: 21px;
-    margin-bottom: 15px;
+.avatar {
+	position: absolute;
+	left: -4.5%;
+    top: calc(50% - 620px/2 - 50px);
 }
-.text{
-    color:#969AA0;
-    font-size: 19px;
-    margin-bottom: 15px;
-}
-.circle_text{
-    font-size: 24px;
-    color: #1B3764;
+.author_statistic{
     display: flex;
-    align-items: center;
-    gap: 7px;
+    align-items: start;
+    flex-direction: column;
 }
-.author{
-    width: 1440px;
-    height: 960px;
-    margin: 0 auto;
-    background-color: #F5F8FC;
+.statistic{
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+    grid-template-rows: 75px 25px;
+    margin: 30px 0;
+}
+.author_statistic img{
+    margin-bottom: 50px;
+}
+.num{
+    font-size: 55px;
+    color: #1b3764;
+    border-left: 3px solid #ffca42;
+    padding: 10px;
+}
+.blue_box{
+    display: flex;
+    width: 484px;
+    height: 161px;
+    padding: 15px 20px;
+    background-color: #1b3764;
+    gap: 30px;
+    justify-content:flex-start;
+}
+.blue_box img{
+    width: 130px;
+    height: 130px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+h6{
+    font-size: 22px;
+    color: #ffca42;
+    margin-bottom: 20px;
 }

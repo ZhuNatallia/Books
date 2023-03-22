@@ -1,0 +1,52 @@
+.about {
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 30px 125px 30px;
+}
+h2 {
+	color: #1b3764;
+	text-align: center;
+	margin: 50px 0 20px;
+}
+.about_teil {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 280px;
+	padding: 30px 15px;
+}
+.about_title {
+	font-size: 24px;
+	color: #1b3764;
+	margin: 20px;
+}
+.text{
+	color: #969AA0;
+	font-size: 19px;
+}
+
+.about_blue{
+	width: 1440px;
+	height: 534px;
+	margin: 0 auto;
+	background-color: #1b3764;
+	display: flex;
+	justify-content: space-between;
+	padding: 70px;
+	gap: 200px;
+}
+.about_blue h2{
+	color: aliceblue;
+	text-align: left;
+}
+.about_blue img{
+	margin-bottom: 20px;
+}
+.about_blue .text{
+	color:aliceblue;
+	line-height: 1.5em;
+}
