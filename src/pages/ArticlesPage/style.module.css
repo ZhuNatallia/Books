@@ -53,6 +53,37 @@ h2 {
 	height: 632px;
 	left: -7.6%;
 	top: calc(50% - 632px / 2 - 40px);
-    width: 100%;
+	width: 100%;
 }
-
+.articles_gray {
+	width: 1440px;
+	height: 1045px;
+	margin: 0 auto;
+	background-color: #f4f8ff;
+	padding-top: 126px;
+}
+.card {
+	width: 420px;
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+    background-color: #fff;
+}
+.wrapper_card {
+	padding: 70px;
+	display: flex;
+	gap: 20px;
+}
+.card .text {
+	font-size: 19px;
+	color: #1b3764;
+	padding: 30px;
+	text-align: left;
+}
+h5 {
+	font-size: 24px;
+	color: #1b3764;
+    padding: 30px;
+}
